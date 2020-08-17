@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flash - Editor</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+<style>
+#editor { 
+	position:;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+div {
+    float:left;
+}
+</style>
+</head>
+<body>
+<center><input onclick="runCode();" type="button" value= "Run Code!"></center>
+<div id="editor" style="width:600px;height:602px;">
+</div>
+<iframe style="width:600px;height:600px;overflow:scroll;" name="targetCode"  id="targetCode"> </iframe></div>
+<script>
+function runCode() {
+var content = document.getElementById('editor').value;
+var iframe = document.getElementById('targetCode');
+iframe = (iframe.contentWindow)?iframe.contentWindow:(iframe.contentDocument)? iframe.contentDocument.document: 
+iframe.contentDocument;
+ 
+iframe.document.open();
+iframe.document.write(content);
+iframe.document.close();
+return false;
+}
+runCode();
+</script>
+<script src="ace-builds-master/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/monokai");
+    editor.session.setMode("ace/mode/javascript");
+</script>
+</body>
+</html>

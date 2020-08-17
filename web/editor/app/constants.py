@@ -1,0 +1,8 @@
+KEYWORDS = ["include","Program", "if", "else", "elif", "for", "while", "func", "return", "run", "class", "macros", "define"]
+BUILT_IN = ["echo","print", "input", "system"]
+MATH = ["pow", "sqrt", "factorial", "complex", "sin", "cos", "tan", "integral"]
+DATATYPE = ["var","bool", "int", "float", "str", "char", "complex"]
+OPERATORS = ["+", "-", "*", "/", "**", "++", "--", "mod", "//", "="]
+COMARTION_OPERATORS = ["==", "!=", ">", "<", "<=", ">="]
+INCREMENT_OPERATORS = ["+=", "-=", "*=", "/=", "**=", "//=", "++", "--"]
+LOGICAL_OPERATORS = ["&&", "||", "and", "or"]

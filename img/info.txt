@@ -1,0 +1,18 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Judson-Regular
+font link: https://fonts.google.com/specimen/Judson
+font author: Daniel Johnson
+font author site: http://danieljohnson.name/
+
+
+icon designer: priyanka
+icon designer link: /creativepriyanka
+        
+
+fontColor: {"hex":"#515DCF"}
+bgColor: {"hex":""}
+iconColor: {"hex":"#515DCF"}
+
+      
